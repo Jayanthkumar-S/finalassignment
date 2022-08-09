@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="https://w7.pngwing.com/pngs/387/743/png-transparent-shopping-cart-illustration-shopping-for-men-and-women-blue-holidays-photography.png" type="image/gif" sizes="16x16">
+    <title>JS Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+    .container{
+padding: 50px;
+margin-top: 100px;
+}
+@media (max-width:600px) {
+.container{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 100px;
+}
+}
+</style>
+</head>
+<body>
+    <!-- Navigation Bar --->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navigation-bar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="./Home.html">ShopLane</a>
+          <ul class="navbar-nav mr-auto justify-content-center">
+            <li class="nav-item active">
+                <a class="nav-link" href="home.html">Home<span class="sr-only"></span></a>
+              </li>
+            <li class="nav-item active">
+                <a class="nav-link" href=" cartitems.html ">CartItems<span class="sr-only"></span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 justify-content-center">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" id="myInput"aria-label="Search">
+            <button class="btn my-2 my-sm-0" type="submit"><i id="search" class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+          <a href="./CartItems.html"><button type="button" class="btn btn-dark" id="cart-button"  data-toggle="tooltip" data-placement="bottom" title="Your Cart Items">
+            <span class="fa fa-shopping-cart" id="cart-icon"></span>
+            <span class="badge badge-light" id="cart-badge">0</span>
+          </button></a>
+          <div class="font-weight-bold circle rounded-circle align-items-cente position-relative"
+          style="width: 45px;height: 45px;margin-left: 50px;">
+          <img class="rounded-circle" src="https://i.pinimg.com/736x/d9/56/9b/d9569bbed4393e2ceb1af7ba64fdf86a.jpg" alt="" height="45px" width="45px">
+        </div>
+        </div>
+      </nav>
+    
+
+      <div class="container">
+        <main>
+            <section class="order-confirmation">
+                <div class="order-wrapper">
+                    <center>
+                        <img src="https://sssc.vic.edu.au/wp-content/uploads/2018/08/checkmark.gif">
+                        <h1>Order Placed Succesfully!!</h1>
+                        <h5>"Happiness is not in money,
+                          but in Shopping."</h5>
+                     
+                    </center>
+    
+                </div>
+            </section>
+    
+        </main>
+      </div>
+
+
+
+      <footer class="bg-white">
+        <div class="container py-5">
+          <div class="row py-4">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
+              <h1><a class="navbar-brand" href="./Home.html" id="shoplogo">ShopLane</a></h1>
+              <p class="font-italic text-muted">"Happiness is not in money,
+                but in Shopping."</p>
+              <ul class="list-inline mt-4">
+                <li class="list-inline-item"><a href="https://twitter.com/i/flow/login" target="_blank" title="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.facebook.com/login.php" target="_blank" title="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/accounts/emailsignup/" target="_blank" title="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="https://github.com/" target="_blank" title="pinterest"><i class="fa-brands fa-github"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Shop</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#clothing-heading" class="text-muted">CLOTHINGS</a></li>
+                <li class="mb-2"><a href="#clothing-heading" class="text-muted">ACCESSORIES</a></li>
+                <li class="mb-2"><a href="#carouselExampleIndicators" class="text-muted">STORES</a></li>
+                <li class="mb-2"><a href="#" class="text-muted">Our Blog</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+                <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
+                <li class="mb-2"><a href="#" class="text-muted">Wishlist</a></li>
+                <li class="mb-2"><a href="#" class="text-muted">Our Products</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Contact Us</h6>
+              <p class="text-muted mb-4">Contact In Mail</p>
+              <div class="p-1 rounded border">
+                <div class="input-group">
+                  <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+                  <div class="input-group-append">
+                    <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Copyrights -->
+        <div class="bg-light py-4">
+          <div class="container text-center">
+            <p class="text-muted mb-0 py-2">© JAYANTH S @</p>
+          </div>
+        </div>
+      </footer>
+   
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   
+       
+        
+</body>
+</html>
+
